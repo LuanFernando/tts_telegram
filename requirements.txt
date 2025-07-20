@@ -1,0 +1,4 @@
+Flask
+gTTS
+requests
+python-dotenv

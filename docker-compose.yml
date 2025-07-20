@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  tts_telegram:
+    build: .
+    ports:
+      - "5005:5005"
+    env_file:
+      - .env
+    restart: always
